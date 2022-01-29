@@ -1,5 +1,0 @@
-package com.kishan.spring.eureka.controller;
-
-public class PaymentController {
-
-}
