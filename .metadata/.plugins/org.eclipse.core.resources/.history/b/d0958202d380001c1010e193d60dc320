@@ -1,0 +1,14 @@
+package com.kishan.spring.eureka.controller;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController 
+public class PaymentController {
+	
+	public String payNow(@PathVariable int price)
+	{
+		return "paymrnt with "+ price + " is successful.";
+	}
+
+}

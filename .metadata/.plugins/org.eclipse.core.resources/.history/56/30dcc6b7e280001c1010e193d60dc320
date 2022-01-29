@@ -1,0 +1,17 @@
+package com.kishan.spring.eureka;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+
+//This Eureka Server
+@EnableEurekaServer
+@SpringBootApplication
+public class AmazonServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AmazonServerApplication.class, args);
+	}
+
+}
